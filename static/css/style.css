@@ -1,0 +1,72 @@
+.main {
+  --left-border-radius: 20px;
+  --left-padding: 50px;
+  box-sizing: border-box;
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* --------------- LEFT -------------------- */
+.left {
+  padding: var(--left-padding);
+  gap: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  max-height: 100vh;
+  background-color: paleturquoise;
+}
+
+.left-inner {
+  display: flex;
+  flex-direction: column;
+  width: calc(60vw - 2 * var(--left-padding));
+  height: 80vh;
+  background-color: #fff5;
+  border-radius: var(--left-border-radius);
+  overflow: clip;
+}
+
+.notes-item:hover {
+  border: 1px solid #0003;
+}
+
+#options button {
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+#options button:first-child {
+  background-color: #f7a253;
+}
+
+#options button:last-child {
+  background-color: #f55f67;
+}
+
+/* --------------- RIGHT -------------------- */
+.right {
+  width: 30%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+  background-color: palegoldenrod;
+}
+
+.right input {
+  width: 80%;
+  height: 20px;
+  padding: 15px;
+  font-size: 20px;
+}
+.right button {
+  padding: 10px 20px;
+}
