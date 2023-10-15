@@ -101,19 +101,44 @@ def authenticate_user(username, password):
 # API - NOTES CREATE
 @app.route("/api/notes/create", methods=["POST"])
 def notes_create():
-    return "HELLO"
+    data = request.get_json()
+    if authenticate_user(data["username"], data["password"]):
+        new_notes = Notes(
+            content=encrypt(data["content"], data["password"]),
+            username=data["username"],
+        )
+        db.session.add(new_notes)
+        db.session.commit()
+        return jsonify({"msg": "SUCCESS"})
+    else:
+        return jsonify({"msg": "ERROR"})
 
 
 # API - NOTES READ
 @app.route("/api/notes/read", methods=["POST"])
 def notes_read():
-    return "HELLO"
+    data = request.get_json()
+    if authenticate_user(data["username"], data["password"]):
+        notes = Notes.query.filter_by(username=data["username"]).all()
+        notes = [
+            {"content": decrypt(x.content, data["password"]), "id": x.id} for x in notes
+        ]
+        return jsonify({"msg": "SUCCESS", "data": notes})
+    else:
+        return jsonify({"msg": "USER_INVALID"})
 
 
 # API - NOTES DELETE
 @app.route("/api/notes/delete", methods=["POST"])
 def notes_delete():
-    return "HELLO"
+    data = request.get_json()
+    if authenticate_user(data["username"], data["password"]):
+        note = Notes.query.filter_by(id=data["id"]).first()
+        db.session.delete(note)
+        db.session.commit()
+        return jsonify({"msg": "SUCCESS"})
+    else:
+        return jsonify({"msg": "USER_INVALID"})
 
 
 if __name__ == "__main__":
