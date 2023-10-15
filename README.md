@@ -3,6 +3,7 @@
 ## Main Timeline
 
 1. Ran on Production: No Issues Found `(Oct 15 9:56 PM)`
+2. Ran on Production: Authenttication part is completed `(Oct 16 1:17 AM)`
 
 ## Developer : Mallikarjun
 
