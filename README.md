@@ -9,15 +9,16 @@
 - useful command : `git-graph -n chlag`
 
 1. Mile Stone 1 : Completely Added Styles to the Application Home Page
+2. Mile Stone 2 : Completed Working on Branch feature_static_files
 
 Assigned Features :
 
-1. [ ] Feature Frontend
+3. [ ] Feature Frontend
    1. Everything Workin Properly `(Oct 15 11:11 PM)`
    2. Everything Workin Properly `(Oct 15 11:45 PM)` Added Styles to the Left Component
    3. Everything Workin Properly `(Oct 15 11:45 PM)` Added Styles to the Right Component
    4. Everything Workin Properly `(Oct 16 12:50 AM)` None
-2. [ ] Feature Backend
+4. [ ] Feature Backend
 
 ## Developer : Soumen
 
