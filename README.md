@@ -1,3 +1,3 @@
-# CS200 NOtES APP
+# CS200 NOTES APP
 
 ## Developer : Mallikarjun
