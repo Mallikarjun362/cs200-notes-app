@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block head %}
+<link rel="stylesheet" href="{{ url_for('static',filename='css/style.css') }}">
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/marked/2.0.0/marked.min.js"></script>
+{% endblock %}
+
+{% block body %}
+<div class="main" %>
+    <!-- ------------------ LEFT ------------------ -->
+    <div class="left">
+        <div class="left-inner">
+            <div id="left-main"
+                style="flex: 100 1 auto; padding:20px; display:flex; flex-direction:column; gap:20px;overflow-x: hidden;overflow-y: scroll;">
+            </div>
+            <div style="display: flex;">
+                <textarea id="content"
+                    style="flex: 90 1 100px;font-size: 20px; border-radius: 0 0 0 var(--left-border-radius);padding: 10px; height:100px;resize:none"></textarea>
+                <button value="Add" onclick="notes_create()"
+                    style="background-color: lightgreen; border-radius: 0 0 var(--left-border-radius) 0;width:100px; border: 2px solid green;cursor: pointer;">Add</button>
+            </div>
+        </div>
+    </div>
+    <!-- ------------------ LEFT ------------------ -->
+</div>
+<script src="{{ url_for('static',filename='js/code.js') }}"></script>
+{% endblock %}
