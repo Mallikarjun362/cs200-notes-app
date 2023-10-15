@@ -2,6 +2,8 @@
 
 ## Developer : Mallikarjun
 
+1. Mile Stone 1 : Completely Added Styles to the Application Home Page
+
 Assigned Features :
 
 1. [ ] Feature Frontend
