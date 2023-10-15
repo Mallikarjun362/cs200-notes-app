@@ -1,0 +1,402 @@
+commit b4c71cde601b4a50f8f98a219917dca3ef1844a2
+Author: Mallikarjun362 <pmallikarjun307@gmail.com>
+Date:   Mon Oct 16 01:23:39 2023 +0530
+
+    Bug Fixes
+
+commit 7a5c30c1697beb28fe6ec5feb48a6726c2f86ed4
+Merge: dc2213f 02e9fcb
+Author: Mallikarjun362 <pmallikarjun307@gmail.com>
+Date:   Mon Oct 16 01:22:55 2023 +0530
+
+    Merge branch 'developer_mallikarjun'
+
+commit 02e9fcba848a4a69b1e2b6bcd6b8ffe981706288
+Author: Mallikarjun362 <pmallikarjun307@gmail.com>
+Date:   Mon Oct 16 01:22:13 2023 +0530
+
+    Updated Notes relates API End-Points in app.py
+
+commit dc2213ffbd988bf0faa7dcd4670c2e2c9968bde4
+Author: Mallikarjun362 <pmallikarjun307@gmail.com>
+Date:   Mon Oct 16 01:18:45 2023 +0530
+
+    Updated Proress
+
+commit 08cc04f4c6c0cc51659c9fc81fbdcfe76437f013
+Author: Mallikarjun362 <pmallikarjun307@gmail.com>
+Date:   Mon Oct 16 01:14:31 2023 +0530
+
+    Revert "Updated Progress on Mile stone 2"
+    
+    This reverts commit 0a65ba5615ead1c5b6a382e75bda3ce3cc59bcf2.
+
+commit b0ff1bf2dd5f75d1fb04819e68043e5c54828c62
+Author: Mallikarjun362 <pmallikarjun307@gmail.com>
+Date:   Mon Oct 16 01:14:29 2023 +0530
+
+    Revert "Cleaned Some Code in Database Section in app.py"
+    
+    This reverts commit 752343bf5124232bf9bfaf75998565dd1398a76c.
+
+commit 8ea97ef6fdcb6c9078436e357cfefc8d98deb796
+Author: Mallikarjun362 <pmallikarjun307@gmail.com>
+Date:   Mon Oct 16 01:14:27 2023 +0530
+
+    Revert "Revert "Updated Progress on Mile stone 2""
+    
+    This reverts commit 30c1eee74be9e8a0518e98f98216f1a9d10cf173.
+
+commit 30c1eee74be9e8a0518e98f98216f1a9d10cf173
+Author: Mallikarjun362 <pmallikarjun307@gmail.com>
+Date:   Mon Oct 16 01:10:47 2023 +0530
+
+    Revert "Updated Progress on Mile stone 2"
+    
+    This reverts commit 0a65ba5615ead1c5b6a382e75bda3ce3cc59bcf2.
+
+commit 752343bf5124232bf9bfaf75998565dd1398a76c
+Author: Mallikarjun362 <pmallikarjun307@gmail.com>
+Date:   Mon Oct 16 01:10:08 2023 +0530
+
+    Cleaned Some Code in Database Section in app.py
+
+commit 0a65ba5615ead1c5b6a382e75bda3ce3cc59bcf2
+Author: Mallikarjun362 <pmallikarjun307@gmail.com>
+Date:   Mon Oct 16 01:02:43 2023 +0530
+
+    Updated Progress on Mile stone 2
+
+commit d205f519d4f3f86ef1e91f42de958ca007f5c3ee
+Merge: 001b52a 70ee7f0
+Author: Mallikarjun362 <pmallikarjun307@gmail.com>
+Date:   Mon Oct 16 01:01:01 2023 +0530
+
+    Merge branch 'feature_static_files'
+
+commit 70ee7f0aa6e2a9503a0982346cdd15346d1292c9
+Author: Mallikarjun362 <pmallikarjun307@gmail.com>
+Date:   Mon Oct 16 01:00:32 2023 +0530
+
+    Added Notes related Frontend JS Code in code.js
+
+commit 001b52a9387c3fae43ff5fb2fd5ee3028d270b8f
+Merge: 53af1b2 e9a78bf
+Author: Mallikarjun362 <pmallikarjun307@gmail.com>
+Date:   Mon Oct 16 00:56:12 2023 +0530
+
+    Merge branch 'developer_mallikarjun'
+
+commit e9a78bf71d39f7fded859dc73165628db777d79e
+Merge: 0560329 ee5adcf
+Author: Mallikarjun362 <pmallikarjun307@gmail.com>
+Date:   Mon Oct 16 00:52:12 2023 +0530
+
+    Merge branch 'feature_utility_and_database' into developer_mallikarjun
+
+commit 05603292c213dabef8c3e792b37dbfe84b4af2cb
+Author: Mallikarjun362 <pmallikarjun307@gmail.com>
+Date:   Mon Oct 16 00:51:28 2023 +0530
+
+    added general Progress
+
+commit ee5adcfd7ab86989f446d07e65369360aec2a64a
+Author: Mallikarjun362 <pmallikarjun307@gmail.com>
+Date:   Mon Oct 16 00:47:26 2023 +0530
+
+    Added Utility Functions
+
+commit 7cf143026b44bc40a1a422348d91a3065a443065
+Author: Mallikarjun362 <pmallikarjun307@gmail.com>
+Date:   Mon Oct 16 00:46:43 2023 +0530
+
+    Added datadase models for User and Notes
+
+commit 53af1b275964e0323c78289cef19c3293e13ec13
+Author: Mallikarjun362 <pmallikarjun307@gmail.com>
+Date:   Mon Oct 16 00:43:13 2023 +0530
+
+    Documentation Authentication part Code
+
+commit 8317a7a552dfc5d6b16c4e269d120c430e4c07dc
+Merge: 284d89e 1def547
+Author: Mallikarjun362 <54075404+Mallikarjun362@users.noreply.github.com>
+Date:   Mon Oct 16 00:31:42 2023 +0530
+
+    Merge pull request #4 from Mallikarjun362/feature_auth
+    
+    authentication part added
+
+commit 1def54780e933238340c9e454670933554b23dd3
+Author: Soumen Jana <jsoumen444@gmail.com>
+Date:   Mon Oct 16 00:29:55 2023 +0530
+
+    authentication part added
+
+commit 816eea3a0ec9818f20fbe131f2058791bca3421f
+Author: Mallikarjun362 <pmallikarjun307@gmail.com>
+Date:   Mon Oct 16 00:07:14 2023 +0530
+
+    Added User Component JS Functions
+
+commit 642edf3b681a4e78c5beea8a8a8c59620b7f0c96
+Author: Mallikarjun362 <pmallikarjun307@gmail.com>
+Date:   Mon Oct 16 00:05:27 2023 +0530
+
+    Added Global Variables to JS file
+
+commit eca95eb22e75ba6bcac6dcd86e07b7f6ff536c00
+Author: Mallikarjun362 <pmallikarjun307@gmail.com>
+Date:   Mon Oct 16 00:04:41 2023 +0530
+
+    Added Outline JS Code
+
+commit 284d89e3cb698cf9f672395de19b072d1969d121
+Merge: 8ffcdad 1b2d30b
+Author: Mallikarjun362 <pmallikarjun307@gmail.com>
+Date:   Sun Oct 15 23:58:08 2023 +0530
+
+    Merge branch 'developer_mallikarjun'
+
+commit 1b2d30b00ebf4e42077b6f1d6a85035545a4c97a
+Author: Mallikarjun362 <pmallikarjun307@gmail.com>
+Date:   Sun Oct 15 23:54:37 2023 +0530
+
+    Updated Progress on Milestone 1
+
+commit 680abc333155f364883f04163b865bc696d0af52
+Author: Mallikarjun362 <pmallikarjun307@gmail.com>
+Date:   Sun Oct 15 23:52:25 2023 +0530
+
+    Updated Progress on Adding Syyles to Right Component
+
+commit fd2a357ef464fa0e5721d6df2e5a76f1f97c365f
+Merge: 51d94a6 c9ae1ef
+Author: Mallikarjun362 <pmallikarjun307@gmail.com>
+Date:   Sun Oct 15 23:49:28 2023 +0530
+
+    Merge branch 'feature_static_files' into feature_frontend
+
+commit c9ae1ef928e8f989e4ddcd872e143cd8516681cf
+Author: Mallikarjun362 <pmallikarjun307@gmail.com>
+Date:   Sun Oct 15 23:48:39 2023 +0530
+
+    Added Styles to The Right Component
+
+commit 51d94a6179de6d66b158d7e4752f2edcc7d2f0d8
+Author: Mallikarjun362 <pmallikarjun307@gmail.com>
+Date:   Sun Oct 15 23:46:52 2023 +0530
+
+    Added Progress to README.md on left Component
+
+commit 93f14319e715673ebfb59ed675127d834ab544c7
+Merge: f361ef4 47e5270
+Author: Mallikarjun362 <pmallikarjun307@gmail.com>
+Date:   Sun Oct 15 23:40:53 2023 +0530
+
+    Merge branch 'feature_static_files' into feature_frontend
+
+commit 8ffcdad33d855656babc89daa072cf9b7ed2d131
+Author: Mallikarjun362 <pmallikarjun307@gmail.com>
+Date:   Sun Oct 15 23:39:20 2023 +0530
+
+    Added Some Notes in README.md
+
+commit e34ef2f81cd14b5db88878af2b4b1158418bf94e
+Merge: 1fe88a0 74b87f4
+Author: Mallikarjun362 <54075404+Mallikarjun362@users.noreply.github.com>
+Date:   Sun Oct 15 23:32:52 2023 +0530
+
+    Merge pull request #3 from Mallikarjun362/developer_soumen
+    
+    Developer soumen
+    Found One Merge Conflict in README.md File and It Was Resolved
+
+commit 74b87f472cde87325c4cc055ad2afdddc668b06a
+Merge: f666b7a 1fe88a0
+Author: Mallikarjun362 <54075404+Mallikarjun362@users.noreply.github.com>
+Date:   Sun Oct 15 23:32:01 2023 +0530
+
+    Merge branch 'main' into developer_soumen
+
+commit 47e5270d621b24172b4718baaa953f161a884d6e
+Author: Mallikarjun362 <pmallikarjun307@gmail.com>
+Date:   Sun Oct 15 23:24:46 2023 +0530
+
+    Added Some more features to the Left Component of the App
+
+commit f361ef434e1bb8dd909d77d927b771164a42450b
+Merge: 0fcde3f 108ac0b
+Author: Mallikarjun362 <pmallikarjun307@gmail.com>
+Date:   Sun Oct 15 23:22:28 2023 +0530
+
+    Merge branch 'feature_static_files' into feature_frontend
+
+commit 108ac0b23eee19feddff2af908ab8f1b7ac2eeb8
+Author: Mallikarjun362 <pmallikarjun307@gmail.com>
+Date:   Sun Oct 15 23:21:25 2023 +0530
+
+    added Basic styles to Left Component
+
+commit f666b7aa460f3bc7857a3e7dd30c32d593068087
+Author: Mallikarjun362 <pmallikarjun307@gmail.com>
+Date:   Sun Oct 15 23:15:04 2023 +0530
+
+    Assigned tasks to Developer-Soumen and Added .gitignore and requirements.txt
+
+commit 0fcde3f15aaa8a2f435a9884a49abf45e912c7bb
+Author: Mallikarjun362 <pmallikarjun307@gmail.com>
+Date:   Sun Oct 15 23:11:46 2023 +0530
+
+    Updated Progress on Frontend Feature Branch
+
+commit 4772ee20873c9c717afb9aa92895ca123508db45
+Author: Mallikarjun362 <pmallikarjun307@gmail.com>
+Date:   Sun Oct 15 23:08:16 2023 +0530
+
+    added api routes for Notes related operations
+
+commit 153715e7a1fa97eb4527b1d1bf9c515a91091da9
+Merge: 9f5fd70 30338ca
+Author: Mallikarjun362 <pmallikarjun307@gmail.com>
+Date:   Sun Oct 15 23:02:19 2023 +0530
+
+    Merge commit '30338ca' into feature_frontend
+
+commit 9f5fd705c95936b36daf4650847391f1f0066ace
+Author: Mallikarjun362 <pmallikarjun307@gmail.com>
+Date:   Sun Oct 15 22:49:10 2023 +0530
+
+    updated home_page.html
+
+commit 30338cad6baf32a75724eb6aecb2b73f28e695d2
+Author: Mallikarjun362 <pmallikarjun307@gmail.com>
+Date:   Sun Oct 15 22:46:53 2023 +0530
+
+    Added Static Files
+
+commit 1fe88a0ab7d2526d29ee5f43bc572d4cebb0a1a9
+Merge: e27bfca c003629
+Author: Mallikarjun362 <54075404+Mallikarjun362@users.noreply.github.com>
+Date:   Sun Oct 15 22:46:08 2023 +0530
+
+    Merge pull request #2 from Mallikarjun362/feature_crypto
+    
+    Feature crypto
+
+commit a08d20abb03d951a1e900e6c88b434e3f946a635
+Author: Soumen Jana <jsoumen444@gmail.com>
+Date:   Sun Oct 15 22:37:29 2023 +0530
+
+    added crypto.py succesfully
+
+commit e27bfcabfba55a6325c4bf18e0786497b7ad33ae
+Author: Mallikarjun362 <pmallikarjun307@gmail.com>
+Date:   Sun Oct 15 22:33:03 2023 +0530
+
+    added file requirements.txt
+
+commit 4c5d490760070973c4ba657c8d1b0e380d7ecb8d
+Author: Mallikarjun362 <pmallikarjun307@gmail.com>
+Date:   Sun Oct 15 22:30:17 2023 +0530
+
+    updated route '/'
+
+commit c003629b099d6c6dbbb51caf9fcf6d4748ceff36
+Author: Soumen Jana <jsoumen444@gmail.com>
+Date:   Sun Oct 15 22:30:10 2023 +0530
+
+    added encryption and fecryption function
+
+commit c2b5e97d0ca434d13c10b01f30cb438df26ee863
+Author: Mallikarjun362 <pmallikarjun307@gmail.com>
+Date:   Sun Oct 15 22:15:54 2023 +0530
+
+    added home_page.html
+
+commit be1d503cd373d0dd81909e467921c80569dc2a06
+Author: Mallikarjun362 <pmallikarjun307@gmail.com>
+Date:   Sun Oct 15 22:15:54 2023 +0530
+
+    added the basic code for left component
+
+commit a337bc373a64b238555dace609cba193e0e17c68
+Author: Mallikarjun362 <pmallikarjun307@gmail.com>
+Date:   Sun Oct 15 22:14:08 2023 +0530
+
+    created home_page.html
+
+commit 93a6790fc87861a4ad84d3119c16972a3a0a2b11
+Author: Soumen Jana <jsoumen444@gmail.com>
+Date:   Sun Oct 15 22:11:33 2023 +0530
+
+    unpadded the fun
+
+commit 4cce01be01635f5b25d8dee3894d437d5cf44320
+Author: Mallikarjun362 <pmallikarjun307@gmail.com>
+Date:   Sun Oct 15 22:11:15 2023 +0530
+
+    Assigned Tasks to Developer-Mallikarjun
+
+commit a6ad000ed5c99df87e1445cf4590a5cc4c37e747
+Author: Soumen Jana <jsoumen444@gmail.com>
+Date:   Sun Oct 15 22:02:25 2023 +0530
+
+    added padding fun for the key
+
+commit ecc559d8dd17358cfde8816582d3ad8224b39f01
+Author: Mallikarjun362 <pmallikarjun307@gmail.com>
+Date:   Sun Oct 15 22:01:29 2023 +0530
+
+    created templates/base.html
+
+commit 3ea8ab458a2a6d86680561efa8337e2c270f6c57
+Author: Mallikarjun362 <pmallikarjun307@gmail.com>
+Date:   Sun Oct 15 21:57:47 2023 +0530
+
+    (1): Ran Production build. No Issues Found
+
+commit 112b4e7252d5ac342a92e57d1ddbe556713964ef
+Author: Mallikarjun362 <pmallikarjun307@gmail.com>
+Date:   Sun Oct 15 21:54:40 2023 +0530
+
+    added Main Timeline section
+
+commit a217a94ad959c54608553fa642689d5155364952
+Merge: 7ca7a1a b6783a8
+Author: Mallikarjun362 <54075404+Mallikarjun362@users.noreply.github.com>
+Date:   Sun Oct 15 21:47:46 2023 +0530
+
+    Merge pull request #1 from Mallikarjun362/developer_soumen
+    
+    added the fun pad
+
+commit b6783a837515ab833ce9e9261c2f86bada35b59a
+Author: Soumen Jana <jsoumen444@gmail.com>
+Date:   Sun Oct 15 21:42:43 2023 +0530
+
+    added the fun pad
+
+commit 7ca7a1a7782ee2e1c149cb64b2997c3d951e9210
+Author: Mallikarjun362 <pmallikarjun307@gmail.com>
+Date:   Sun Oct 15 21:30:55 2023 +0530
+
+    Added .gitignore
+
+commit 07f1d62c6077dd7396b5c821a94be79f8e621c8d
+Author: Mallikarjun362 <pmallikarjun307@gmail.com>
+Date:   Sun Oct 15 21:29:23 2023 +0530
+
+    Fixed Typos in README.md
+
+commit 89ddf10826717cba8764710a3164e555f613bef4
+Author: Mallikarjun362 <pmallikarjun307@gmail.com>
+Date:   Sun Oct 15 21:26:28 2023 +0530
+
+    initial branch commit
+
+commit 5d96e2240d8fb3960f24cea1195fa38c55bd55fd
+Author: Mallikarjun362 <pmallikarjun307@gmail.com>
+Date:   Sun Oct 15 21:17:33 2023 +0530
+
+    initial commit

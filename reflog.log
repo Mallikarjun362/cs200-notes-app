@@ -1,0 +1,124 @@
+b4c71cd HEAD@{0}: checkout: moving from feature_auth to main
+76d17f7 HEAD@{1}: pull origin feature_static_files: Merge made by the 'ort' strategy.
+1def547 HEAD@{2}: checkout: moving from main to feature_auth
+b4c71cd HEAD@{3}: commit (amend): Bug Fixes
+90bd37e HEAD@{4}: commit: Bug Fixes
+7a5c30c HEAD@{5}: merge developer_mallikarjun: Merge made by the 'ort' strategy.
+dc2213f HEAD@{6}: checkout: moving from developer_mallikarjun to main
+02e9fcb HEAD@{7}: commit: Updated Notes relates API End-Points in app.py
+e9a78bf HEAD@{8}: checkout: moving from main to developer_mallikarjun
+dc2213f HEAD@{9}: commit: Updated Proress
+08cc04f HEAD@{10}: revert: Revert "Updated Progress on Mile stone 2"
+b0ff1bf HEAD@{11}: revert: Revert "Cleaned Some Code in Database Section in app.py"
+8ea97ef HEAD@{12}: revert: Revert "Revert "Updated Progress on Mile stone 2""
+30c1eee HEAD@{13}: checkout: moving from 0a65ba5615ead1c5b6a382e75bda3ce3cc59bcf2 to main
+0a65ba5 HEAD@{14}: checkout: moving from main to 0a65ba5
+30c1eee HEAD@{15}: revert: Revert "Updated Progress on Mile stone 2"
+752343b HEAD@{16}: commit: Cleaned Some Code in Database Section in app.py
+0a65ba5 HEAD@{17}: commit: Updated Progress on Mile stone 2
+d205f51 HEAD@{18}: merge feature_static_files: Merge made by the 'ort' strategy.
+001b52a HEAD@{19}: checkout: moving from feature_static_files to main
+70ee7f0 HEAD@{20}: checkout: moving from main to feature_static_files
+001b52a HEAD@{21}: checkout: moving from feature_static_files to main
+70ee7f0 HEAD@{22}: commit: Added Notes related Frontend JS Code in code.js
+816eea3 HEAD@{23}: checkout: moving from main to feature_static_files
+001b52a HEAD@{24}: commit (merge): Merge branch 'developer_mallikarjun'
+53af1b2 HEAD@{25}: checkout: moving from developer_mallikarjun to main
+e9a78bf HEAD@{26}: merge feature_utility_and_database: Merge made by the 'ort' strategy.
+0560329 HEAD@{27}: commit: added general Progress
+1b2d30b HEAD@{28}: checkout: moving from feature_utility_and_database to developer_mallikarjun
+ee5adcf HEAD@{29}: commit: Added Utility Functions
+7cf1430 HEAD@{30}: commit: Added datadase models for User and Notes
+1b2d30b HEAD@{31}: checkout: moving from developer_mallikarjun to feature_utility_and_database
+1b2d30b HEAD@{32}: checkout: moving from main to developer_mallikarjun
+53af1b2 HEAD@{33}: commit: Documentation Authentication part Code
+8317a7a HEAD@{34}: reset: moving to HEAD
+8317a7a HEAD@{35}: reset: moving to HEAD
+8317a7a HEAD@{36}: pull origin main: Fast-forward
+284d89e HEAD@{37}: checkout: moving from feature_frontend to main
+8f588d8 HEAD@{38}: pull origin main: Merge made by the 'ort' strategy.
+01bfbc2 HEAD@{39}: merge feature_static_files: Merge made by the 'ort' strategy.
+680abc3 HEAD@{40}: checkout: moving from feature_static_files to feature_frontend
+816eea3 HEAD@{41}: commit: Added User Component JS Functions
+642edf3 HEAD@{42}: commit: Added Global Variables to JS file
+eca95eb HEAD@{43}: commit: Added Outline JS Code
+c9ae1ef HEAD@{44}: checkout: moving from main to feature_static_files
+284d89e HEAD@{45}: commit (merge): Merge branch 'developer_mallikarjun'
+8ffcdad HEAD@{46}: checkout: moving from developer_mallikarjun to main
+1b2d30b HEAD@{47}: commit: Updated Progress on Milestone 1
+680abc3 HEAD@{48}: merge feature_frontend: Fast-forward
+be1d503 HEAD@{49}: checkout: moving from feature_frontend to developer_mallikarjun
+680abc3 HEAD@{50}: commit: Updated Progress on Adding Syyles to Right Component
+fd2a357 HEAD@{51}: merge feature_static_files: Merge made by the 'ort' strategy.
+51d94a6 HEAD@{52}: checkout: moving from feature_static_files to feature_frontend
+c9ae1ef HEAD@{53}: commit: Added Styles to The Right Component
+47e5270 HEAD@{54}: checkout: moving from feature_frontend to feature_static_files
+51d94a6 HEAD@{55}: commit: Added Progress to README.md on left Component
+93f1431 HEAD@{56}: merge feature_static_files: Merge made by the 'ort' strategy.
+f361ef4 HEAD@{57}: checkout: moving from main to feature_frontend
+8ffcdad HEAD@{58}: commit: Added Some Notes in README.md
+e34ef2f HEAD@{59}: checkout: moving from feature_static_files to main
+47e5270 HEAD@{60}: checkout: moving from developer_mallikarjun to feature_static_files
+be1d503 HEAD@{61}: checkout: moving from feature_crypto to developer_mallikarjun
+c003629 HEAD@{62}: checkout: moving from developer_soumen to feature_crypto
+74b87f4 HEAD@{63}: pull origin developer_soumen: Fast-forward
+f666b7a HEAD@{64}: checkout: moving from main to developer_soumen
+e34ef2f HEAD@{65}: pull origin main: Fast-forward
+e27bfca HEAD@{66}: checkout: moving from feature_static_files to main
+47e5270 HEAD@{67}: commit: Added Some more features to the Left Component of the App
+108ac0b HEAD@{68}: checkout: moving from feature_frontend to feature_static_files
+f361ef4 HEAD@{69}: merge feature_static_files: Merge made by the 'ort' strategy.
+0fcde3f HEAD@{70}: checkout: moving from feature_static_files to feature_frontend
+108ac0b HEAD@{71}: commit: added Basic styles to Left Component
+30338ca HEAD@{72}: checkout: moving from feature_frontend to feature_static_files
+0fcde3f HEAD@{73}: checkout: moving from developer_mallikarjun to feature_frontend
+be1d503 HEAD@{74}: checkout: moving from developer_soumen to developer_mallikarjun
+f666b7a HEAD@{75}: commit (amend): Assigned tasks to Developer-Soumen and Added .gitignore and requirements.txt
+7394925 HEAD@{76}: commit: Assigned tasks to Developer-Soumen
+a08d20a HEAD@{77}: pull origin developer_soumen: Fast-forward
+b6783a8 HEAD@{78}: checkout: moving from feature_frontend to developer_soumen
+0fcde3f HEAD@{79}: commit: Updated Progress on Frontend Feature Branch
+4772ee2 HEAD@{80}: commit: added api routes for Notes related operations
+153715e HEAD@{81}: commit (merge): Merge commit '30338ca' into feature_frontend
+9f5fd70 HEAD@{82}: merge 9f5fd70: Fast-forward
+c2b5e97 HEAD@{83}: checkout: moving from 9f5fd705c95936b36daf4650847391f1f0066ace to feature_frontend
+9f5fd70 HEAD@{84}: checkout: moving from feature_frontend to 9f5fd70
+c2b5e97 HEAD@{85}: checkout: moving from feature_crypto to feature_frontend
+c003629 HEAD@{86}: checkout: moving from feature_frontend to feature_crypto
+c2b5e97 HEAD@{87}: reset: moving to HEAD~1
+4c5d490 HEAD@{88}: reset: moving to HEAD~1
+9f5fd70 HEAD@{89}: checkout: moving from 9f5fd705c95936b36daf4650847391f1f0066ace to feature_frontend
+9f5fd70 HEAD@{90}: checkout: moving from feature_frontend to 9f5fd70
+9f5fd70 HEAD@{91}: reset: moving to HEAD
+9f5fd70 HEAD@{92}: reset: moving to HEAD
+9f5fd70 HEAD@{93}: commit: updated home_page.html
+4c5d490 HEAD@{94}: checkout: moving from feature_static_files to feature_frontend
+30338ca HEAD@{95}: commit: Added Static Files
+be1d503 HEAD@{96}: checkout: moving from developer_mallikarjun to feature_static_files
+be1d503 HEAD@{97}: checkout: moving from feature_frontend to developer_mallikarjun
+4c5d490 HEAD@{98}: checkout: moving from main to feature_frontend
+e27bfca HEAD@{99}: commit: added file requirements.txt
+3ea8ab4 HEAD@{100}: checkout: moving from feature_frontend to main
+4c5d490 HEAD@{101}: commit: updated route '/'
+c2b5e97 HEAD@{102}: commit (cherry-pick): added home_page.html
+4cce01b HEAD@{103}: checkout: moving from 4cce01be01635f5b25d8dee3894d437d5cf44320 to feature_frontend
+4cce01b HEAD@{104}: checkout: moving from developer_mallikarjun to 4cce01b
+be1d503 HEAD@{105}: commit: added the basic code for left component
+a337bc3 HEAD@{106}: commit: created home_page.html
+4cce01b HEAD@{107}: commit: Assigned Tasks to Developer-Mallikarjun
+ecc559d HEAD@{108}: commit: created templates/base.html
+7ca7a1a HEAD@{109}: checkout: moving from main to developer_mallikarjun
+3ea8ab4 HEAD@{110}: commit: (1): Ran Production build. No Issues Found
+112b4e7 HEAD@{111}: commit: added Main Timeline section
+a217a94 HEAD@{112}: checkout: moving from developer_mallikarjun to main
+7ca7a1a HEAD@{113}: checkout: moving from developer_soumen to developer_mallikarjun
+b6783a8 HEAD@{114}: checkout: moving from main to developer_soumen
+a217a94 HEAD@{115}: pull: Fast-forward
+7ca7a1a HEAD@{116}: merge developer_mallikarjun: Fast-forward
+5d96e22 HEAD@{117}: checkout: moving from developer_mallikarjun to main
+7ca7a1a HEAD@{118}: commit: Added .gitignore
+07f1d62 HEAD@{119}: commit: Fixed Typos in README.md
+89ddf10 HEAD@{120}: commit: initial branch commit
+5d96e22 HEAD@{121}: checkout: moving from main to developer_mallikarjun
+5d96e22 HEAD@{122}: Branch: renamed refs/heads/master to refs/heads/main
+5d96e22 HEAD@{124}: commit (initial): initial commit

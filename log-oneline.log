@@ -1,0 +1,62 @@
+b4c71cd Bug Fixes
+7a5c30c Merge branch 'developer_mallikarjun'
+02e9fcb Updated Notes relates API End-Points in app.py
+dc2213f Updated Proress
+08cc04f Revert "Updated Progress on Mile stone 2"
+b0ff1bf Revert "Cleaned Some Code in Database Section in app.py"
+8ea97ef Revert "Revert "Updated Progress on Mile stone 2""
+30c1eee Revert "Updated Progress on Mile stone 2"
+752343b Cleaned Some Code in Database Section in app.py
+0a65ba5 Updated Progress on Mile stone 2
+d205f51 Merge branch 'feature_static_files'
+70ee7f0 Added Notes related Frontend JS Code in code.js
+001b52a Merge branch 'developer_mallikarjun'
+e9a78bf Merge branch 'feature_utility_and_database' into developer_mallikarjun
+0560329 added general Progress
+ee5adcf Added Utility Functions
+7cf1430 Added datadase models for User and Notes
+53af1b2 Documentation Authentication part Code
+8317a7a Merge pull request #4 from Mallikarjun362/feature_auth
+1def547 authentication part added
+816eea3 Added User Component JS Functions
+642edf3 Added Global Variables to JS file
+eca95eb Added Outline JS Code
+284d89e Merge branch 'developer_mallikarjun'
+1b2d30b Updated Progress on Milestone 1
+680abc3 Updated Progress on Adding Syyles to Right Component
+fd2a357 Merge branch 'feature_static_files' into feature_frontend
+c9ae1ef Added Styles to The Right Component
+51d94a6 Added Progress to README.md on left Component
+93f1431 Merge branch 'feature_static_files' into feature_frontend
+8ffcdad Added Some Notes in README.md
+e34ef2f Merge pull request #3 from Mallikarjun362/developer_soumen
+74b87f4 Merge branch 'main' into developer_soumen
+47e5270 Added Some more features to the Left Component of the App
+f361ef4 Merge branch 'feature_static_files' into feature_frontend
+108ac0b added Basic styles to Left Component
+f666b7a Assigned tasks to Developer-Soumen and Added .gitignore and requirements.txt
+0fcde3f Updated Progress on Frontend Feature Branch
+4772ee2 added api routes for Notes related operations
+153715e Merge commit '30338ca' into feature_frontend
+9f5fd70 updated home_page.html
+30338ca Added Static Files
+1fe88a0 Merge pull request #2 from Mallikarjun362/feature_crypto
+a08d20a added crypto.py succesfully
+e27bfca added file requirements.txt
+4c5d490 updated route '/'
+c003629 added encryption and fecryption function
+c2b5e97 added home_page.html
+be1d503 added the basic code for left component
+a337bc3 created home_page.html
+93a6790 unpadded the fun
+4cce01b Assigned Tasks to Developer-Mallikarjun
+a6ad000 added padding fun for the key
+ecc559d created templates/base.html
+3ea8ab4 (1): Ran Production build. No Issues Found
+112b4e7 added Main Timeline section
+a217a94 Merge pull request #1 from Mallikarjun362/developer_soumen
+b6783a8 added the fun pad
+7ca7a1a Added .gitignore
+07f1d62 Fixed Typos in README.md
+89ddf10 initial branch commit
+5d96e22 initial commit
