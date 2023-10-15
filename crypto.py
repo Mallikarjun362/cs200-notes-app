@@ -21,3 +21,9 @@ def pad_string_to_128_bytes(input_string):
         result_bytes = input_bytes + padding
 
     return result_bytes
+
+# PKCS7 unpadding function
+def unpad(text):
+    padding = text[-1]
+    return text[:-padding]
+
