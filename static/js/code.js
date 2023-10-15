@@ -65,9 +65,64 @@ function user_logout() {
     location.reload();
 }
 
-function notes_get_all() { }
-function notes_create() { }
-function notes_delete(id) { }
+function notes_get_all() {
+    const data = { username: localStorage.getItem('username'), password: localStorage.getItem('password') }
+    const end_point = '/api/notes/read'
+    axios.post(end_point, data)
+        .then(function (response) {
+            const msg = response.data.msg;
+            const data = response.data.data;
+            let html_str = ""
+            for (let i = 0; i < data.length; i++) {
+                html_str += `<div style="padding: 10px; background-color:#fff5; position: relative;" class="notes-item">
+                ${marked(data[i]['content'])}
+                <div style="position: absolute;top: 0px;right:0px;display: flex;gap:0px;" id="options">
+                    <button onclick="notes_delete(${data[i]["id"]})">Delete</button>
+                </div>
+            </div>`
+            }
+            document.getElementById("left-main").innerHTML = html_str;
+        })
+        .catch(function (error) {
+            console.error('Error');
+        });
+}
+// DONE
+function notes_create() {
+    const data = {
+        username: localStorage.getItem('username'),
+        password: localStorage.getItem('password'),
+        content: document.getElementById("content").value
+    }
+    const end_point = '/api/notes/create'
+    axios.post(end_point, data)
+        .then(function (response) {
+            const msg = response.data.msg;
+            if (msg == "SUCCESS") {
+                notes_get_all();
+                document.getElementById("content").value = "";
+            }
+        })
+        .catch(function (error) {
+            console.error('Error');
+        });
+}
+function notes_delete(id) {
+    const data = {
+        username: localStorage.getItem('username'),
+        password: localStorage.getItem('password'),
+        id,
+    }
+    const end_point = '/api/notes/delete'
+    axios.post(end_point, data)
+        .then(function (response) {
+            const msg = response.data.msg;
+            notes_get_all();
+        })
+        .catch(function (error) {
+            console.error('Error');
+        });
+}
 
 
 // USER COMPONENT
