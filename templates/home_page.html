@@ -23,6 +23,17 @@
         </div>
     </div>
     <!-- ------------------ LEFT ------------------ -->
+    <div class="right" id="user_in">
+        <div id="display_username" style="font-size: 20px;"></div>
+        <button onclick="user_logout()">Log Out</button>
+    </div>
+    <div class="right" id="user_out">
+        <input type="text" id="username" placeholder="username">
+        <input type="password" id="password" placeholder="password">
+        <button onclick="user_login()">Login</button>
+        <button onclick="user_register()">Register</button>
+        <div id="error-msg" style="color: red;font-size:20px;"></div>
+    </div>
 </div>
 <script src="{{ url_for('static',filename='js/code.js') }}"></script>
 {% endblock %}
