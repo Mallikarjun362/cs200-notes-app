@@ -39,6 +39,34 @@ def home_page():
     return render_template("home_page.html")
 
 
+# ------------------------------------ UTILITY FUNCTIONS ------------------------------------
+def hash_password(password):
+    hashed_password = bcrypt.hashpw(password.encode("utf-8"), SALT)
+    return hashed_password
+
+
+def check_password(plain_password, hashed_password):
+    return bcrypt.checkpw(plain_password.encode("utf-8"), hashed_password)
+
+
+def is_user_exists(username):
+    user = User.query.filter_by(username=username).first()
+    if user:
+        return True
+    else:
+        return False
+
+
+def authenticate_user(username, password):
+    user = User.query.filter_by(username=username).first()
+    if user:
+        if check_password(plain_password=password, hashed_password=user.password):
+            return True
+        return False
+    else:
+        return False
+
+
 # --------------------------------------------------- NOTES -------------------------------------------
 # API - NOTES CREATE
 @app.route("/api/notes/create", methods=["POST"])
