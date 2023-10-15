@@ -19,3 +19,32 @@
   max-height: 100vh;
   background-color: paleturquoise;
 }
+
+.left-inner {
+  display: flex;
+  flex-direction: column;
+  width: calc(60vw - 2 * var(--left-padding));
+  height: 80vh;
+  background-color: #fff5;
+  border-radius: var(--left-border-radius);
+  overflow: clip;
+}
+
+.notes-item:hover {
+  border: 1px solid #0003;
+}
+
+#options button {
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+#options button:first-child {
+  background-color: #f7a253;
+}
+
+#options button:last-child {
+  background-color: #f55f67;
+}
