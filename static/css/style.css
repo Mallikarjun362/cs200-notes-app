@@ -1,0 +1,21 @@
+.main {
+  --left-border-radius: 20px;
+  --left-padding: 50px;
+  box-sizing: border-box;
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* --------------- LEFT -------------------- */
+.left {
+  padding: var(--left-padding);
+  gap: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  max-height: 100vh;
+  background-color: paleturquoise;
+}
