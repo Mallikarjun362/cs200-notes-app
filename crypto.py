@@ -27,3 +27,21 @@ def unpad(text):
     padding = text[-1]
     return text[:-padding]
 
+# Encryption function using CBC mode
+def encrypt(plaintext, key):
+    key = pad_string_to_128_bytes(key)
+    iv = get_random_bytes(16)  # Initialization Vector (IV)
+    cipher = AES.new(key, AES.MODE_CBC, iv)
+    ciphertext = cipher.encrypt(pad(plaintext.encode()))
+    return (iv + ciphertext).decode("ISO-8859-1")
+
+
+# Decryption function using CBC mode
+def decrypt(ciphertext, key):
+    ciphertext = ciphertext.encode("ISO-8859-1")
+    key = pad_string_to_128_bytes(key)
+    iv = ciphertext[:16]
+    ciphertext = ciphertext[16:]
+    cipher = AES.new(key, AES.MODE_CBC, iv)
+    plaintext = unpad(cipher.decrypt(ciphertext))
+    return plaintext.decode()
