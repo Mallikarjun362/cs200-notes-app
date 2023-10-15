@@ -16,6 +16,7 @@ Assigned Features :
    1. Everything Workin Properly `(Oct 15 11:11 PM)`
    2. Everything Workin Properly `(Oct 15 11:45 PM)` Added Styles to the Left Component
    3. Everything Workin Properly `(Oct 15 11:45 PM)` Added Styles to the Right Component
+   4. Everything Workin Properly `(Oct 16 12:50 AM)` None
 2. [ ] Feature Backend
 
 ## Developer : Soumen
